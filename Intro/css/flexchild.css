@@ -1,0 +1,30 @@
+.box{
+    border: 2px solid red;
+    padding: 50px;
+}
+.container{
+    display: flex;
+    height: 450px;
+    background-color: aqua;
+}
+.a{
+    flex-grow: 1;
+    align-self: end;
+    order: 3;
+}
+.b{
+    flex-grow: 2;
+    align-self: start;
+}
+.c{
+    flex-basis: 300px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    order: 2;
+}
+.d{
+    align-self: stretch;
+    align-content: center;
+    order: 4;
+}
