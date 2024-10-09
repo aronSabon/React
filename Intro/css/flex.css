@@ -1,0 +1,28 @@
+.box{
+    padding: 40px;
+    border: 2px solid red;
+    color: white;
+    width: 550px;
+}
+.container{
+    background-color: gray;
+    display: flex;
+    /* flex, inline-flex */
+    flex-direction: row;
+    /* row, column, row-reverse, column-reverse */
+    justify-content: start;
+    /* start, end, center, space-between, space-around */
+    flex-wrap: wrap;
+    /* wrap, nowrap, wrap-reverse */
+    /* flex-flow: row nowrap; */
+    height: 450px;
+    align-items:  end ;
+    /* center, start, end, baseline, stretch */
+    align-content: start;
+    /* start, end, center, space-between, space-around */
+
+}
+.b{
+
+    font-size: 60px;
+}
